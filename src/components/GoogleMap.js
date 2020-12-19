@@ -1,5 +1,5 @@
 import React, {memo} from 'react';
-import GoogleMapReact from "google-map-react";
+import GoogleMapReact from 'google-map-react';
 import Icon from './common/Icon';
 
 const Map = memo(({ locations = [], center, isMobile }) => {

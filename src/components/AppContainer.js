@@ -28,8 +28,8 @@ function AppContainer() {
     const [availableDrivers, setAvailableDrivers] = useState([]);
     const [locations, setLocations] = useState([]);
     const [center, setCenter] = useState({
-        lat: 73.9712,
-        lng: 40.7831
+        lat: -62.500322,
+        lng: -120.412407
     });
     const [loading, setLoading] = useState(true);
     const [originalDrivers, setOriginalDrivers] = useState([]);

@@ -1,6 +1,5 @@
 import React, { memo } from 'react';
-import cn from 'class-names';
-import ActionButton from "../common/ActionButton";
+import ActionButton from '../common/ActionButton';
 
 function nameToInitials(val) {
     if (!val || !val.match(/\S/)) return 'N/A';
@@ -45,7 +44,7 @@ function Label({ text, classes }) {
 const Driver = memo(({ id, name, age, location = {}, picture, phone, itemClass, removeDriver, locateDriver, task }) => {
         const fullName = `${name.first} ${name.last}`;
 
-        return (<div className={cn("driver-container padding-2 b-light-g border-r", itemClass)}>
+        return (<div className={`${itemClass} driver-container padding-2 b-light-g border-r`}>
             <div className="d-flex">
                 <div className="col margin-r-2">
                     <Avatar classes="margin-b-2" img={picture} />

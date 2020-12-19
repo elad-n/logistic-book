@@ -1,5 +1,5 @@
 import React, {memo} from 'react';
-import Driver from "./Driver";
+import Driver from './Driver';
 
 const DriversList = memo(({drivers, removeDriver, locateDriver}) => {
     return <div className="drivers-list-container">
